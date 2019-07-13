@@ -1,0 +1,165 @@
+.navbar {
+    font-family: $PTMono;
+    width: 100%;
+    position: fixed;
+    background-color: $white;
+    margin: 0;
+
+    img {
+        width: 5%;
+
+    }
+
+    .nav-link {
+        color: $quicksilver;
+        font-family: $PTMono;
+    }
+
+    a.nav-link:hover {
+        background: $shinyshamrock;
+    }
+
+}
+
+.datos {
+    background-color: $white;
+    font-family: $PTMono;
+    width: 480px;
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+    position: absolute;
+    top: 351px;
+    display: inline-block;
+    left: 420px;
+}
+
+.textosdatos1 {
+    margin: 1rem 1.5rem 1rem 1.5rem;
+    display: inline-block;
+}
+
+.textosdatos2 {
+    margin: 1rem 1.5rem 1rem 0.5rem;
+    display: inline-block;
+}
+
+.textosdatos3 {
+    margin: 1rem 1.5rem 1rem 0.5rem;
+    display: inline-block;
+}
+
+.bloques {
+    // display: inline-block;
+    position: relative;
+    // top: 350px;
+    // left: 900px;
+
+
+    .bloque1 {
+        width: 138px;
+        height: 138px;
+        background-color: $coral;
+        display: inline-block;
+        z-index: 1;
+        top: 350px;
+        left: 900px;
+        position: relative;
+    }
+
+    .bloque2 {
+        width: 138px;
+        height: 138px;
+        background-color: $flame;
+        display: inline-block;
+        z-index: 2;
+        top: 320px;
+        left: 740px;
+        position: relative;
+    }
+
+}
+
+
+
+.VenConocer {
+    background-color: $white;
+    width: 100%;
+    padding: 3rem 5rem;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    z-index: -1;
+    top: 345px;
+
+    h1 {
+        font-family: $PTMono;
+        width: 25%;
+        display: inline-block;
+        box-sizing: border-box;
+
+    }
+
+    p {
+        font-family: $Roboto;
+        box-sizing: border-box;
+        margin-top: 1rem;
+        width: 15%;
+
+    }
+}
+
+.colores {
+    .mapa {
+        width: 396px;
+        display: inline-block;
+        position: absolute;
+        z-index: 4;
+        top: 520px;
+        left: 390px;
+    }
+
+    .bloqueazul {
+        background-color: $bluefrance;
+        width: 480px;
+        padding: 7rem;
+        display: inline-block;
+        position: absolute;
+        z-index: 4;
+        top: 488px;
+        left: 420px;
+    }
+}
+
+.cafes {
+    background-color: $white;
+    width: 100%;
+
+    .cafe {
+        width: 290px;
+        position: fixed;
+        z-index: 5;
+        top: 488px;
+        left: 820px;
+    }
+
+    .cafetera {
+        width: 550px;
+        position: fixed;
+        z-index: 4;
+        top: 488px;
+        left: 900px;
+    }
+}
+
+.flecha {
+    .arrow {
+        text-decoration: none;
+        position: absolute;
+        color: $white;
+        z-index: 5;
+        top: 360px;
+        left: 930px;
+
+
+    }
+}
